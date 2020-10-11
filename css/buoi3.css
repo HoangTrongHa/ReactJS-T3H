@@ -1,0 +1,100 @@
+.block-sm{
+    width: 100px;
+    height: 100px;
+}
+
+.bg-dark{
+    background-color: gray;
+}
+
+.display-block{
+    display: block;
+}
+[class="block-sm bg-dark"]{
+    border: 2px solid pink;
+}
+[class ~="block-sm"]{
+    font-size: 40px;
+}
+
+[class^="block"]{
+    color: red;
+}
+
+[class$="light"]{
+    color: black;
+}
+[class*="bg-dark"]{
+
+    padding: 30px;
+}
+.pointer:hover{
+    cursor: pointer;
+}
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: green;
+}
+a:hover{
+    color: red;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table,td{
+    width: 100%;
+    border: 1px solid lightpink;
+}
+td:first-child{
+    color: aqua;
+}
+td:last-child{
+    color: blueviolet;
+}
+.my::first-letter{
+    font-size: 100px;
+}
+.my::selection{
+    color: blue;
+ }
+input:focus{
+    background-color: #c43e4b;
+}
+input:checked{
+    border: 1px solid yellow;
+}
+.parent{
+    width: 50vw;
+    height: 100vh;
+    background-color: #c43e4b;
+    margin: 0 auto;
+}
+.child{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    border: inherit;
+}
+p{
+    text-shadow: 10px 10px rosybrown;
+    /*border-bottom-color: bisque;*/
+    /*border-bottom-style: dot-dot-dash;*/
+    /*border-bottom-width: 3px;*/
+    border-bottom: 3px bisque dot-dot-dash;
+}
+h1{
+    margin: 100px;
+    padding: 50px;
+    border: 1px solid pink;
+}
+h2{
+
+    padding: 100px;
+    border: 1px solid yellow;
+}
